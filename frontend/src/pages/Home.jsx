@@ -7,8 +7,8 @@ import profileImg from '../assets/profile.jpg';
 const stats = [
   { label: 'Projects Completed', value: '5+' },
   { label: 'Engineering Student', value: 'RYMEC' },
-  { label: 'Technologies Learned', value: '5+' },
-  { label: 'Certificates', value: '12' }
+  { label: 'Technologies Learned', value: '4+' },
+  { label: 'Certificates', value: '6' }
 ];
 
 export default function Home() {
@@ -27,7 +27,23 @@ export default function Home() {
             <h2>Full Stack Developer</h2>
             <p className="muted">I design and build modern, scalable web applications with React, Node.js, and MongoDB while creating polished digital experiences.</p>
             <div className="button-row">
-              <a href="/resume" className="btn btn-primary"><Download size={16} style={{ marginRight: 8 }} />Download Resume</a>
+              <a
+                href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary"
+              >
+                View Resume
+              </a>
+
+              <a
+                href="/resume.pdf"
+                download="Govinda_K_T_Resume.pdf"
+                className="btn btn-secondary"
+              >
+                <Download size={16} style={{ marginRight: 8 }} />
+                Download Resume
+              </a>
               <Link to="/contact" className="btn btn-secondary"><Send size={16} style={{ marginRight: 8 }} />Contact Me</Link>
             </div>
           </motion.div>
