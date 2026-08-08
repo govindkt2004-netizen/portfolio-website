@@ -2,13 +2,24 @@ import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet-async';
 
 const education = [
-  { title: 'BSc in Computer Science', subtitle: 'University of Technology', year: '2020 - 2024' },
-  { title: 'Full Stack Development Bootcamp', subtitle: 'Online Academy', year: '2023' }
+  {
+    title: 'Bachelor of Engineering',
+    subtitle: 'Information Science & Engineering',
+    year: 'Rao Bahadur Y Mahabaleswarappa Engineering College, Ballari'
+  },
+  {
+    title: 'University',
+    subtitle: 'Visvesvaraya Technological University',
+    year: 'Currently Pursuing Final Year'
+  }
 ];
 
 const experience = [
-  { title: 'Frontend Developer', subtitle: 'Bright Labs', year: '2022 - Present' },
-  { title: 'Junior Web Developer', subtitle: 'Pixel Studio', year: '2020 - 2022' }
+  {
+    title: 'Full Stack Developer',
+    subtitle: 'Student & Personal Projects',
+    year: 'Currently'
+  }
 ];
 
 const skills = ['React', 'Node.js', 'MongoDB', 'UI/UX', 'Problem Solving'];
@@ -26,7 +37,9 @@ export default function About() {
         <div className="grid two-col">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="glass-card card">
             <h3>Introduction</h3>
-            <p className="muted">I’m a full-stack developer focused on creating modern, user-first web applications. I enjoy turning ideas into fast, reliable, and aesthetically pleasing products.</p>
+            <p className="muted">
+              I’m an Information Science & Engineering student at Rao Bahadur Y Mahabaleswarappa Engineering College, Ballari, passionate about full-stack development and building modern web applications. I enjoy turning ideas into practical, reliable, and user-friendly digital experiences.
+            </p>
           </motion.div>
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }} className="glass-card card">
             <h3>Skills Snapshot</h3>

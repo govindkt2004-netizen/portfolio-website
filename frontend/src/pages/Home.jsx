@@ -5,9 +5,9 @@ import { Helmet } from 'react-helmet-async';
 import profileImg from '../assets/profile.jpg';
 
 const stats = [
-  { label: 'Projects Completed', value: '25+' },
-  { label: 'Years Experience', value: '4' },
-  { label: 'Happy Clients', value: '18' },
+  { label: 'Projects Completed', value: '5+' },
+  { label: 'Engineering Student', value: 'RYMEC' },
+  { label: 'Technologies Learned', value: '5+' },
   { label: 'Certificates', value: '12' }
 ];
 
