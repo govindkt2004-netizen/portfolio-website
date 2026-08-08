@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { Download, Send } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
+import profileImg from '../assets/profile.jpg';
 
 const stats = [
   { label: 'Projects Completed', value: '25+' },
@@ -11,8 +12,7 @@ const stats = [
 ];
 
 export default function Home() {
-  const profileImg = `${import.meta.env.BASE_URL}govinda-profile.jpg`;
-
+  
   return (
     <>
       <Helmet>
